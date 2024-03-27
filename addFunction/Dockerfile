@@ -14,7 +14,7 @@ RUN npm install
 COPY . /app
 
 # Make port 8080 available outside this container
-EXPOSE 8080
+
 
 # Run the web service on container startup.
 CMD [ "node", "index.js" ]
